@@ -1,0 +1,27 @@
+Metasploitable & OWASP Mutillidae II - Commands Used
+
+1. User Creation
+----------------
+sudo su
+useradd manish
+passwd manish
+id manish
+
+2. MySQL Service Management (Metasploitable uses SysV init)
+-----------------------------------------------------------
+/etc/init.d/mysql start
+/etc/init.d/mysql status
+
+3. Mutillidae II Access
+----------------------
+URL:
+http://<metasploitable-ip>/mutillidae
+
+4. Database Initialization
+--------------------------
+Performed using the web interface:
+Click on "Setup / Reset Database" in Mutillidae.
+
+5. Verification
+---------------
+Mutillidae II loaded successfully in browser without database errors.
